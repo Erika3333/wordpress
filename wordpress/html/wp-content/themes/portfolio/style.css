@@ -1,0 +1,187 @@
+@charset "utf-8";
+/*
+Theme Name: ポートフォリオ
+*/
+       
+/* ---------------------------------------
+共通処理
+--------------------------------------- */
+body {
+    color: #333;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    color: navy;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* ---------------------------------------
+ヘッダー処理
+--------------------------------------- */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background: rgba(255,255,255,0.9);
+    padding: 0px 0px;
+    width: 100%;
+    /* position: fixed; */
+    top: 0px;
+    /* z-index: 100; */
+}
+header ul {
+    display: flex;
+    padding: 20px;
+}
+header ul li {
+    width: 100%;
+    border-left: 1px solid gray;
+}
+.logo a {
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+.header-navigation li a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+.header-navigation li a:hover {
+    color: navy;
+} 
+
+
+/* ---------------------------------------
+メイン処理
+--------------------------------------- */
+.hearder_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio{
+    background-color: #FFE8AF;
+    padding: 30px;
+    margin: 0 auto;
+}
+.contents {
+    text-align: center;
+}
+.content_info {
+    text-align: center;
+}
+.contents ul {
+    display: flex;
+}
+.contents li {
+    width: 100%;
+    padding: 5%;
+}
+.content_image {
+    width: 30%;
+    height: 20%;
+}
+
+.blog {
+    margin: 0 auto;
+    padding: 30px;
+}
+.blog_info {
+    text-align: center;
+}
+.blog_card {
+    display: flex;
+    /* max-width: 100%; */
+    width: 70%;
+    margin: 30px auto;
+}
+.blog_image {
+    float: left;
+    width: 30%;
+    height: 30%;
+    padding-right: 20px;
+}
+.blog_title {
+    /* height: 200px; */
+}
+
+.line_botton {
+    width: 200px;
+    margin: 0px auto!important;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(128, 128, 128, 0.473);
+}
+
+.conte_archive {
+    width: 100%;
+}
+.portfolio_archive {
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 30px;
+}
+.conte_archive {
+    display: flex;
+}
+.conte_archive .contents ul {
+    display: none;
+    width: 100%;
+}
+
+.single {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+
+
+
+/* ---------------------------------------
+フッター処理
+--------------------------------------- */
+footer {
+    height: 70px;
+    background-color: gray;
+    padding-top: 40px;
+    opacity: 0.5;
+}
+.footer_name{
+    text-align: center;
+    color: black;
+}
+.footer_name a{
+    color: black;
+}
+.footer_name a:hover{
+    color: navy;
+}
+
+
+
